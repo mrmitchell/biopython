@@ -130,7 +130,7 @@ def min_residue_depth(residue, surface):
     """
     atom_list = residue.get_unpacked_list()
     length = len(atom_list)
-    d = np.inf
+    d = numpy.inf
     for atom in atom_list:
         coord = atom.get_coord()
         d = min(d, min_dist(coord, surface))
