@@ -80,7 +80,7 @@ def osx_clang_fix():
         elif "-Qunused-arguments" not in os.environ[flag]:
             os.environ[flag] += " -Qunused-arguments"
 
-osx_clang_fix()
+#osx_clang_fix()
 
 
 def is_pypy():

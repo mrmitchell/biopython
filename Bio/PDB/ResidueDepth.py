@@ -65,7 +65,9 @@ def _read_vertex_array(filename):
     return numpy.array(vertex_list)
 
 
-def get_surface(pdb_file, PDB_TO_XYZR="pdb_to_xyzr", MSMS="msms"):
+def get_surface(pdb_file,
+        PDB_TO_XYZR="/Users/michaelmitchell/Documents/leibler_lab/springs/msms/pdb_to_xyzr",
+        MSMS="/Users/michaelmitchell/Documents/leibler_lab/springs/msms/msms"):
     """
     Return a Numeric array that represents
     the vertex list of the molecular surface.
