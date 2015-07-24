@@ -55,7 +55,7 @@ from .DSSP import DSSP, make_dssp_dict
 
 # Residue depth:
 # distance of residue atoms from solvent accessible surface
-from .ResidueDepth import ResidueDepth, get_surface
+from .ResidueDepth import ResidueDepth, get_surface, min_dist
 
 # Calculation of Half Sphere Solvent Exposure
 from .HSExposure import HSExposureCA, HSExposureCB, ExposureCN
